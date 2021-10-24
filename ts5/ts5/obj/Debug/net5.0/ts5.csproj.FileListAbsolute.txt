@@ -1,0 +1,16 @@
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ts5.exe
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ts5.deps.json
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ts5.runtimeconfig.json
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ts5.runtimeconfig.dev.json
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ts5.dll
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ref\ts5.dll
+D:\HomeTasks\HomeTasks\ts5\ts5\bin\Debug\net5.0\ts5.pdb
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.AssemblyInfoInputs.cache
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.AssemblyInfo.cs
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.dll
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ref\ts5.dll
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.pdb
+D:\HomeTasks\HomeTasks\ts5\ts5\obj\Debug\net5.0\ts5.genruntimeconfig.cache
