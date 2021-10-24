@@ -1,0 +1,16 @@
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.AssemblyInfoInputs.cache
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.AssemblyInfo.cs
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ts2.exe
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ts2.deps.json
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ts2.runtimeconfig.json
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ts2.runtimeconfig.dev.json
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ts2.dll
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ref\ts2.dll
+D:\HomeTasks\HomeTasks\ts2\ts2\bin\Debug\net5.0\ts2.pdb
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.dll
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ref\ts2.dll
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.pdb
+D:\HomeTasks\HomeTasks\ts2\ts2\obj\Debug\net5.0\ts2.genruntimeconfig.cache
