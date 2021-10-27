@@ -8,13 +8,18 @@ namespace ts5
         {
             Console.WriteLine("Введите текст на английском языке");
 
-           string EngSt = Console.ReadLine();
+            string EngSt = Console.ReadLine();
 
             string LeerSt = FrEngToLeer(EngSt);
 
 
             Console.WriteLine(LeerSt);
 
+
+            string StOne = "теплоход";
+            
+            Console.WriteLine(StOne.Substring(0, 5));            
+            Console.WriteLine(StOne.Substring(5, 2) + StOne.Substring(3, 2) + StOne.Substring(7, 1));
 
             Console.ReadKey();
 
