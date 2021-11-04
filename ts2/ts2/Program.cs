@@ -6,9 +6,12 @@ namespace ts2
     {
         static void Main(string[] args)
         {
-            int a = 2, b = 3, c = 5;
-            int V = a * b * c;
-            int SPov = 2 * a * b + 2 * b * c + 2 * a * c;
+            Console.WriteLine("Введите длину, высоту и ширину прямоугольного параллелипипеда");
+            var a = double.Parse(Console.ReadLine());
+            var b = double.Parse(Console.ReadLine());
+            var c = double.Parse(Console.ReadLine());
+            double V = a * b * c;
+            double SPov = 2 * a * b + 2 * b * c + 2 * a * c;
 
             Console.WriteLine($"Прямоугольный параллелипипед со сторонами {a}, {b}, {c}  имеет объём: {V} и площадь поверхности: {SPov}");
 

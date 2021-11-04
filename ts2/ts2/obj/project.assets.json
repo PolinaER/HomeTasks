@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HomeTasks\\HomeTasks\\ts2\\ts2\\ts2.csproj",
+      "projectUniqueName": "D:\\HomeTasks\\клонHomeTasks\\ts2\\ts2\\ts2.csproj",
       "projectName": "ts2",
-      "projectPath": "D:\\HomeTasks\\HomeTasks\\ts2\\ts2\\ts2.csproj",
+      "projectPath": "D:\\HomeTasks\\клонHomeTasks\\ts2\\ts2\\ts2.csproj",
       "packagesPath": "C:\\Users\\Polina\\.nuget\\packages\\",
-      "outputPath": "D:\\HomeTasks\\HomeTasks\\ts2\\ts2\\obj\\",
+      "outputPath": "D:\\HomeTasks\\клонHomeTasks\\ts2\\ts2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Polina\\AppData\\Roaming\\NuGet\\NuGet.Config",
