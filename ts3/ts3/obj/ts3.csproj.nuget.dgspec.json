@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HomeTasks\\HomeTasks\\ts3\\ts3\\ts3.csproj": {}
+    "D:\\HomeTasks\\клонHomeTasks\\ts3\\ts3\\ts3.csproj": {}
   },
   "projects": {
-    "D:\\HomeTasks\\HomeTasks\\ts3\\ts3\\ts3.csproj": {
+    "D:\\HomeTasks\\клонHomeTasks\\ts3\\ts3\\ts3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HomeTasks\\HomeTasks\\ts3\\ts3\\ts3.csproj",
+        "projectUniqueName": "D:\\HomeTasks\\клонHomeTasks\\ts3\\ts3\\ts3.csproj",
         "projectName": "ts3",
-        "projectPath": "D:\\HomeTasks\\HomeTasks\\ts3\\ts3\\ts3.csproj",
+        "projectPath": "D:\\HomeTasks\\клонHomeTasks\\ts3\\ts3\\ts3.csproj",
         "packagesPath": "C:\\Users\\Polina\\.nuget\\packages\\",
-        "outputPath": "D:\\HomeTasks\\HomeTasks\\ts3\\ts3\\obj\\",
+        "outputPath": "D:\\HomeTasks\\клонHomeTasks\\ts3\\ts3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Polina\\AppData\\Roaming\\NuGet\\NuGet.Config",

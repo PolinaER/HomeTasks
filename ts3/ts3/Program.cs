@@ -8,16 +8,14 @@ namespace ts3
         {
             Console.WriteLine("Введите число - значение x");
             var x = double.Parse(Console.ReadLine());
-            FindMod3(x);
+            Console.WriteLine($"{FindMod3(x)} = |{ x } +|{ x } +|{ x } + √({ x } + 1)|||");
 
             Console.ReadKey();
         }
 
-        static void FindMod3(double x)
+        static double FindMod3(double x)
         {
-
-            Console.WriteLine(Math.Abs(x + Math.Abs(x + Math.Abs(x + Math.Sqrt(x + 1)))) + 
-                                  " = |" + x + "+|" + x + "+|" + x + "+√(" + x + "+1)|||");
+            return x = Math.Abs(x + Math.Abs(x + Math.Abs(x + Math.Sqrt(x + 1))));
         }
     }
     
