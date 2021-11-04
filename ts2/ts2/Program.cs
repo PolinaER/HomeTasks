@@ -6,7 +6,9 @@ namespace ts2
     {
         static void Main(string[] args)
         {
-            int a = 2, b = 3, c = 5;
+            var a = double.Parse(Console.ReadLine());
+            var b = double.Parse(Console.ReadLine());
+            var c = double.Parse(Console.ReadLine());
             int V = a * b * c;
             int SPov = 2 * a * b + 2 * b * c + 2 * a * c;
 
