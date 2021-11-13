@@ -1,0 +1,16 @@
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\Task7.exe
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\Task7.deps.json
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\Task7.runtimeconfig.json
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\Task7.runtimeconfig.dev.json
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\Task7.dll
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\ref\Task7.dll
+D:\HomeTasks\HomeTasks\Task7\Task7\bin\Debug\net5.0\Task7.pdb
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.AssemblyInfoInputs.cache
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.AssemblyInfo.cs
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.dll
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\ref\Task7.dll
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.pdb
+D:\HomeTasks\HomeTasks\Task7\Task7\obj\Debug\net5.0\Task7.genruntimeconfig.cache
