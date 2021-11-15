@@ -23,30 +23,18 @@ namespace Task__6
 
 
             Console.WriteLine("Task6 6.3");
-            Console.WriteLine("Enter the file of black rook");
-            var BlF = char.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the rank of black rook");
-            var BlR = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the file of white rook");
-            var WhF = char.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the rank of white rook");
-            var WhR = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the position of black rook");
+            var BlPos = Console.ReadLine();
 
-            if (WhF == BlF)
-                Console.WriteLine("The posotoion of white rook is dangerous");
-            else
-               if (WhR == BlR)
-                Console.WriteLine("The posotoion of white rook is dangerous");
-            else
-            {
-                Console.WriteLine("The posotoion of white rook is safe");
+            Console.WriteLine("Enter the position of white rook");
+            var WhPos = Console.ReadLine();
 
-                Console.WriteLine("Enter the file of proposed move of white rook");
-                var WhMoveF = char.Parse(Console.ReadLine());
-                Console.WriteLine("Enter the rank of proposed move of white rook");
-                var WhMoveR = int.Parse(Console.ReadLine());
+            Console.WriteLine(IsPosSafe(BlPos, WhPos));
 
-                Console.WriteLine($"The move is safe for white rook - it is {IsSuppMoveSafe(BlF, BlR, WhMoveF, WhMoveR)}");
+            Console.WriteLine("Enter the position of proposed move of white rook");
+            var MoveWh = Console.ReadLine();
+
+            Console.WriteLine($"The proposed move of white rook is safe - {IsSuppMoveSafe(MoveWh, BlPos)}");
             }
             Console.ReadKey();
         }
@@ -89,15 +77,44 @@ namespace Task__6
 
         }
 
-        static bool IsSuppMoveSafe(char BlF, int BlR, char WhMoveF, int WhMoveR)
+        static bool IsSuppMoveSafe(string MoveWh, string BlPos)
         {
-            if (BlF == WhMoveF)
+            int bF, bR, mF, mR;
+            GetCoordinates(BlPos, out bF, out bR);
+            GetCoordinates(MoveWh, out mF, out mR);
+
+            if (bF == mF)
                 return false;
             else
-                if (BlR == WhMoveR)
+                if (bR == mR)
                 return false;
             else
                 return true;
+        }
+       
+         static void GetCoordinates(string position, out int row, out int column)
+        {
+            column = (int)position[1] - 0x31;
+            row = (int)position[0] - 0x61;
+        }
+
+        static bool IsPosSafe(string WhPos, string BlPos)
+        {
+            int bF, bR, wF, wR;
+
+            GetCoordinates(BlPos, out bF, out bR);
+            GetCoordinates(WhPos, out wF, out wR);
+
+            if (bF == wF)
+                return false;
+            else
+            {
+                if (bR == wR)
+                    return false;
+                else
+                    return true;
+            }
+
         }
 
     }
