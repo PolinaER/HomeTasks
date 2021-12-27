@@ -21,12 +21,15 @@ namespace Task9
             PrintArray(viceVersa);
             Console.WriteLine($"\nСумма элементов массива делёная на 10, равна: {SummAndModTen(viceVersa)}");
             Console.WriteLine("Массив с переставленными элементами:");
-            double[] copy = new double[n];
-            Array.Copy(viceVersa, copy, n);
+            var copy = (double[])viceVersa.Clone(); 
             MoveElPlaces(copy);
             PrintArray(copy);
+            Console.WriteLine();
+            Console.WriteLine("Изначальный массив");
+            PrintArray(viceVersa);
             Console.ReadLine();
         }
+
         static void PrintArray(double[] array)
         {
             for (int i = 0; i < array.Length; i++)
@@ -49,20 +52,17 @@ namespace Task9
                 summdelten += array[i];
             return summdelten = summdelten / 10;
         }
-        static void MoveElPlaces(double[] array)
+        static void MoveElPlaces(double[] arr)
         {
             double a;
-            for (int i = 0; i < array.Length - 1; i++)
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                a = array[i];
-                array[i] = array[i + 1];
-                array[i + 1] = a;
+                a = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = a;
                 i++;
             }
-            
-        }
-       
-
+        }     
     }
 
 
