@@ -24,18 +24,30 @@ namespace Task__6
 
             Console.WriteLine("Task6 6.3");
             Console.WriteLine("Enter the position of black rook");
-            var BlPos = Console.ReadLine();
+            var blPos = Console.ReadLine();
 
             Console.WriteLine("Enter the position of white rook");
-            var WhPos = Console.ReadLine();
+            var whPos = Console.ReadLine();
+            
+            int bF, bR, wF, wR;
+            GetCoordinates(blPos, out bF, out bR);
+            GetCoordinates(whPos, out wF, out wR);
 
-            Console.WriteLine(IsPosSafe(BlPos, WhPos));
-
-            Console.WriteLine("Enter the position of proposed move of white rook");
-            var MoveWh = Console.ReadLine();
-
-            Console.WriteLine($"The proposed move of white rook is safe - {IsSuppMoveSafe(MoveWh, BlPos)}");
+            if (bF == wF)
+            {
+                if (bR == wR)
+                    Console.WriteLine("The positions are the same");
+                else
+                    Console.WriteLine("The posotion is dangerous");
             }
+            else
+            {
+                Console.WriteLine("The posotion is safe");
+                Console.WriteLine("Enter the position of proposed move of white rook");
+                var moveWh = Console.ReadLine();
+                Console.WriteLine($"The proposed move of white rook is safe - {IsSuppMoveSafe(moveWh, blPos)}");
+            }
+                     
             Console.ReadKey();
         }
 
@@ -77,11 +89,11 @@ namespace Task__6
 
         }
 
-        static bool IsSuppMoveSafe(string MoveWh, string BlPos)
+        static bool IsSuppMoveSafe(string moveWh, string blPos)
         {
             int bF, bR, mF, mR;
-            GetCoordinates(BlPos, out bF, out bR);
-            GetCoordinates(MoveWh, out mF, out mR);
+            GetCoordinates(blPos, out bF, out bR);
+            GetCoordinates(moveWh, out mF, out mR);
 
             if (bF == mF)
                 return false;
@@ -97,26 +109,6 @@ namespace Task__6
             column = (int)position[1] - 0x31;
             row = (int)position[0] - 0x61;
         }
-
-        static bool IsPosSafe(string WhPos, string BlPos)
-        {
-            int bF, bR, wF, wR;
-
-            GetCoordinates(BlPos, out bF, out bR);
-            GetCoordinates(WhPos, out wF, out wR);
-
-            if (bF == wF)
-                return false;
-            else
-            {
-                if (bR == wR)
-                    return false;
-                else
-                    return true;
-            }
-
-        }
-
     }
 }
 
