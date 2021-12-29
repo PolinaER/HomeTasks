@@ -8,55 +8,49 @@ namespace ts5
         {
             Console.WriteLine("Введите текст на английском языке");
 
-            string EngSt = Console.ReadLine();
+            string engSt = Console.ReadLine();
 
-            string LeerSt = FrEngToLeer(EngSt);
+            string leetSt = FrEngToLeet(engSt);
+            Console.WriteLine(leetSt);
 
-
-            Console.WriteLine(LeerSt);
-
-
-            string StOne = "теплоход";
+            string stOne = "теплоход";
             
-            Console.WriteLine(StOne.Substring(0, 5));            
-            Console.WriteLine(StOne.Substring(5, 2) + StOne.Substring(3, 2) + StOne.Substring(7, 1));
+            Console.WriteLine(stOne.Substring(7, 1) + stOne.Substring(1, 1) + stOne.Substring(3, 2));            
+            Console.WriteLine(stOne.Substring(5, 2) + stOne.Substring(3, 2) + stOne.Substring(7, 1));
 
             Console.ReadKey();
 
         }
 
-        static string FrEngToLeer(string EngSt)
+        static string FrEngToLeet(string engSt)
         {
            
-            return EngSt.Replace('a', '4').Replace('A', '4')
-                         .Replace('b', '8').Replace('B', '8')
-                         .Replace('c', '(').Replace('C', '(')
-                         .Replace("d", "|)").Replace("D", "|)")
-                         .Replace("e", "3").Replace("e", "3)")
-                         .Replace("f", "|=").Replace("F", "|=")
-                         .Replace('g', '6').Replace('G', '6')
-                         .Replace("h", " |-|").Replace("H", "|-|")
-                         .Replace('i', '!').Replace('I', '!')
-                         .Replace('j', ')').Replace('J', ')')
-                         .Replace("k", "|<").Replace("K", "|<")
-                         .Replace('l', '1').Replace('L', '1')
-                         .Replace("m", @"|\/|").Replace("M", @"|\/|")
-                         .Replace("n", @"|\|").Replace("N", @"|\|")
-                         .Replace('o', '0').Replace('O', '0')
-                         .Replace("p", "|>").Replace("P", "|>")
-                         .Replace('q', '9').Replace('Q', '9')
-                         .Replace("r", "|2").Replace("R", "|2")
-                         .Replace('s', '5').Replace('S', '5')
-                         .Replace('t', '7').Replace('T', '7')
-                         .Replace("u", "|_|").Replace("U", "|_|")
-                         .Replace("v", @"\/").Replace("V", @"\/")
-                         .Replace("w", @"\/\/").Replace("W", @"\/\/")
-                         .Replace("x", "><").Replace("X", "><")
-                         .Replace("y", @"'/").Replace("Y", @"'/")
-                         .Replace('z', '2').Replace('Z', '2');
-
-            
-
+            return engSt.ToLower().Replace('a', '4')
+                         .Replace('b', '8')
+                         .Replace('c', '(')
+                         .Replace("d", "|)")
+                         .Replace("e", "3")
+                         .Replace("f", "|=")
+                         .Replace('g', '6')
+                         .Replace("h", " |-|")
+                         .Replace('i', '!')
+                         .Replace('j', ')')
+                         .Replace("k", "|<")
+                         .Replace('l', '1')
+                         .Replace("m", @"|\/|")
+                         .Replace("n", @"|\|")
+                         .Replace('o', '0')
+                         .Replace("p", "|>")
+                         .Replace('q', '9')
+                         .Replace("r", "|2")
+                         .Replace('s', '5')
+                         .Replace('t', '7')
+                         .Replace("u", "|_|")
+                         .Replace("v", @"\/")
+                         .Replace("w", @"\/\/")
+                         .Replace("x", "><")
+                         .Replace("y", @"'/")
+                         .Replace('z', '2');
         }
     }
 
