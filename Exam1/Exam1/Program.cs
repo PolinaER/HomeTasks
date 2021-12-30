@@ -10,55 +10,55 @@ namespace Exam1
             Console.WriteLine("Введите текст - последовательность из 1 и 0");
             var text = Console.ReadLine();
             int lengText = text.ToString().Length;
-            Encrypt(text);
+
+            Encrypt(text, GenerKey(text));
             Console.WriteLine();
 
             Console.WriteLine("Вевдите зашифрованный текст");
-            var encText = int.Parse(Console.ReadLine());
+            var encText = Console.ReadLine();
            
             Console.WriteLine("Введите ключ");
-            var decKey = int.Parse(Console.ReadLine());
+            var decKey = Console.ReadLine();
 
+            Decrypt(encText, GetKey(decKey));
             Console.WriteLine();
 
             Console.ReadKey();
         }
 
-        static int[] GenKey(int lengText)
+        static int[] GenerKey(string text)
         {
-            int[] key = new int[lengText];
-
-
+            Random rand = new Random();
+            int[] key = new int[text.Length];
+            for (int i = 0; i < text.Length; i++)
+            {
+              int randomNum = rand.Next(0, 99);
+              key[i] = randomNum;
+                
+            }
             return key;
         }
 
-        static void Encrypt(string text)
+        static void Encrypt(string text, int[] key)
         {
-            int[] encr = new int[text.Length];
-            var text1 = int.Parse(text);
-            for (int i = 0; i < text.Length; i++)
-            {
-                encr[i] = text1 % 10;
-                text1 = text1 / 10;
-                
-            }
-            int[] text2 = text.Select(c => (int)char.GetNumericValue(c)).ToArray();
+           
+            int[] encr = text.Select(c => (int)char.GetNumericValue(c)).ToArray();
             
             for (int i = 0; i < text.Length; i++)
             {
                 for (int j = 0; j < text.Length; j++)
                 {
-                    if (encr[i] != text2[j])
-                        text2[j] = 1;
+                    if (key[i] != encr[j])
+                        encr[j] = 1;
                     else
-                        text2[j] = 0;
-                    Console.Write(text2[j]);
+                        encr[j] = 0;
+                    Console.Write(encr[j]);
                 }
                 
             }
         }
 
-        static void Decrypt(string decText, int[] key)
+        static void Decrypt(string decText, int[] decrKey)
         {
             int[] text = decText.Select(c => (int)char.GetNumericValue(c)).ToArray();
 
@@ -66,7 +66,7 @@ namespace Exam1
             {
                 for (int j = 0; j < decText.Length; j++)
                 {
-                    if (key[i] != text[j])
+                    if (decrKey[i] != text[j])
                         text[j] = 0;
                     else
                         text[j] = 1;
@@ -74,6 +74,12 @@ namespace Exam1
                 }
 
             }
+        }
+
+        static int[] GetKey (string decKey)
+        {
+            int[] decrKey = decKey.Select(c => (int)char.GetNumericValue(c)).ToArray();
+            return decrKey;
         }
     }
 }
