@@ -8,12 +8,12 @@ namespace Task8
         {
             Console.WriteLine("Task 1");
             Console.WriteLine("Введите целое число от 0 до 500");
-            var a = int.Parse(Console.ReadLine());
-            int sumCu = 0;
+            var a = ulong.Parse(Console.ReadLine());
+            ulong sumCu = 0;
 
-           for (int i = a; i < 500; i++)
+           for (ulong i = a; i < 500; i++)
             {
-                sumCu += i * i * i;
+                sumCu = sumCu + (i * i * i);
             }
             Console.WriteLine($"Сумма кубов чисел от {a} до 500 равна {sumCu}");
             Console.WriteLine();
@@ -27,7 +27,7 @@ namespace Task8
             int j = 1;
             while (j * j < n)
             {
-                Console.Write($"{j * j++} ");
+                Console.Write($"{j * (j++)} ");
             }
             Console.WriteLine();
 
@@ -83,16 +83,18 @@ namespace Task8
         }
         static int Task4 (int m, int k)
         {
+            int n = 0;
             int result = 0;
-            while (m > 0)
                 do
                 {
-                    result += m % 10;
+                    n = m % 10;
+                    if(n >= k)
+                    {
+                        result = result + n;
+                    }    
                     m = m / 10;
-                }
-                while (m % 10 > k);
+                }while (m > 0);
             return result;
-
         }
     }
 }
