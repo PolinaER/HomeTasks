@@ -1,0 +1,16 @@
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\Exam1.exe
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\Exam1.deps.json
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\Exam1.runtimeconfig.json
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\Exam1.runtimeconfig.dev.json
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\Exam1.dll
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\ref\Exam1.dll
+D:\HomeTasks\HomeTasks\Exam1\Exam1\bin\Debug\net5.0\Exam1.pdb
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.AssemblyInfoInputs.cache
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.AssemblyInfo.cs
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.dll
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\ref\Exam1.dll
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.pdb
+D:\HomeTasks\HomeTasks\Exam1\Exam1\obj\Debug\net5.0\Exam1.genruntimeconfig.cache
