@@ -1,0 +1,6 @@
+D:\HomeTasks\HomeTasks\Library\Library\bin\Debug\Library.dll
+D:\HomeTasks\HomeTasks\Library\Library\bin\Debug\Library.pdb
+D:\HomeTasks\HomeTasks\Library\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\Library\Library\obj\Debug\Library.dll
+D:\HomeTasks\HomeTasks\Library\Library\obj\Debug\Library.pdb
