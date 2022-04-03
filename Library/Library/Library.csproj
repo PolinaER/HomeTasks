@@ -42,8 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Edition.cs" />
+    <Compile Include="FictionEdition.cs" />
+    <Compile Include="FictionEditionType.cs" />
+    <Compile Include="PeriodicalEdition.cs" />
+    <Compile Include="PeriodicalEditionType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EditionStatus.cs" />
+    <Compile Include="ScienceEdition.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

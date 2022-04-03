@@ -6,15 +6,6 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    ///Поля/свойства(точка означает, что данное свойство следует передавать в конструктор через параметр):
-    ///•название
-    ///•список авторов; 
-    ///•год издания; 
-    ///•издательство; 
-    ///•инвентарный номер(только для чтения); 
-    ///статус(в хранилище, выдана в читальный зал, выдана на дом — использовать перечисление); 
-    ///цена.
-
     public class Edition
     {
         public string Name;
@@ -49,13 +40,34 @@ namespace Library
             }
         }
 
-        public Edition(string name, string authors, int yearPublication, string publishingHouse, long inventoryNumber)
+        public Edition(string name, string authors, int cost, int yearPublication, string publishingHouse, long inventoryNumber, EditionStatus status)
         {
             Name = name;
             Authors = authors;
+            Cost = cost;
             YearPublication = yearPublication;
             PublishingHouse = publishingHouse;
             InventoryNumber = inventoryNumber;
+            Status = status;
+        }
+
+        public virtual string[] GetInfo()
+        {
+            var info = new string[3];
+            info[0] = ToString();
+            info[1] = $"Год публикации: {PublishingHouse}, дата публикации: {YearPublication}";
+
+            string status;
+            if (Status == EditionStatus.Home)
+                status = "выдана на дом";
+            else if (Status == EditionStatus.ReadingRoom)
+                status = "в читательном зале";
+            else
+                status = "в хранилище";
+
+            info[2] = $"Стоимость: {Cost}. Статус издания: {status}";
+            return info;
+
         }
 
         public override string ToString()
