@@ -1,0 +1,11 @@
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\bin\Debug\HRLibrary.UnitTests.dll
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\bin\Debug\HRLibrary.UnitTests.pdb
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\bin\Debug\Library.dll
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\bin\Debug\nunit.framework.dll
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\bin\Debug\Library.pdb
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\bin\Debug\nunit.framework.xml
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\obj\Debug\HRLibrary.UnitTests.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\obj\Debug\HRLibrary.UnitTests.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\obj\Debug\HRLibrary.UnitTests.csproj.CopyComplete
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\obj\Debug\HRLibrary.UnitTests.dll
+D:\HomeTasks\HomeTasks\Library\HRLibrary.UnitTests\obj\Debug\HRLibrary.UnitTests.pdb
