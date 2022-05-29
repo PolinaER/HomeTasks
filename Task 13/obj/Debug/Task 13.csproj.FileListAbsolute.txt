@@ -1,0 +1,7 @@
+D:\HomeTasks\HomeTasks\Task 13\bin\Debug\Task 13.exe.config
+D:\HomeTasks\HomeTasks\Task 13\bin\Debug\Task 13.exe
+D:\HomeTasks\HomeTasks\Task 13\bin\Debug\Task 13.pdb
+D:\HomeTasks\HomeTasks\Task 13\obj\Debug\Task 13.csproj.AssemblyReference.cache
+D:\HomeTasks\HomeTasks\Task 13\obj\Debug\Task 13.csproj.CoreCompileInputs.cache
+D:\HomeTasks\HomeTasks\Task 13\obj\Debug\Task 13.exe
+D:\HomeTasks\HomeTasks\Task 13\obj\Debug\Task 13.pdb
