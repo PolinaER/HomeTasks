@@ -16,14 +16,15 @@ namespace Task_13
             using (var stream = new StreamReader("names.txt"))
             {
                 while (!stream.EndOfStream)
-                    names.Add(stream.ReadLine());
+                {
+                    var name = stream.ReadLine();
+                    if(!names.Contains(name.Substring(0,1).ToUpper()+name.Substring(1)))
+                       names.Add(name.Substring(0, 1).ToUpper() + name.Substring(1));
+                }
             }
 
             names.Sort();
 
-            for (var i = 0; i < names.Count(); i++)
-                names[i] = names[i].Substring(0, 1).ToUpper() + names[i].Substring(1);
-            
             using (var stream = new StreamWriter("result.txt", true))
             {
                 Console.WriteLine("Обработка данных:");
